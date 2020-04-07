@@ -1,0 +1,998 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.216079013)"
+    },
+    "accessors": {
+        "Sphere01_mesh_accessor": {
+            "bufferView": "Sphere01_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                45.97090148925781,
+                45.97090148925781,
+                45.97090148925781
+            ],
+            "min": [
+                -45.97090148925781,
+                -45.97090148925781,
+                -45.97090148925781
+            ]
+        },
+        "Sphere01_mesh_accessor_0": {
+            "bufferView": "Sphere01_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "Sphere01_mesh_accessor_1": {
+            "bufferView": "Sphere01_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Sphere01_mesh_accessor_2": {
+            "bufferView": "Sphere01_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2880,
+            "type": "SCALAR",
+            "max": [
+                558.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "Sphere04_mesh_accessor": {
+            "bufferView": "Sphere04_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                45.97090148925781,
+                45.97090148925781,
+                45.97090148925781
+            ],
+            "min": [
+                -45.97090148925781,
+                -45.97090148925781,
+                -45.97090148925781
+            ]
+        },
+        "Sphere04_mesh_accessor_0": {
+            "bufferView": "Sphere04_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "Sphere04_mesh_accessor_1": {
+            "bufferView": "Sphere04_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Sphere04_mesh_accessor_2": {
+            "bufferView": "Sphere04_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2880,
+            "type": "SCALAR",
+            "max": [
+                558.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "Sphere08_mesh_accessor": {
+            "bufferView": "Sphere08_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                45.97090148925781,
+                45.97090148925781,
+                45.97090148925781
+            ],
+            "min": [
+                -45.97090148925781,
+                -45.97090148925781,
+                -45.97090148925781
+            ]
+        },
+        "Sphere08_mesh_accessor_0": {
+            "bufferView": "Sphere08_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "Sphere08_mesh_accessor_1": {
+            "bufferView": "Sphere08_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Sphere08_mesh_accessor_2": {
+            "bufferView": "Sphere08_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2880,
+            "type": "SCALAR",
+            "max": [
+                558.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "Sphere06_mesh_accessor": {
+            "bufferView": "Sphere06_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                45.97090148925781,
+                45.97090148925781,
+                45.97090148925781
+            ],
+            "min": [
+                -45.97090148925781,
+                -45.97090148925781,
+                -45.97090148925781
+            ]
+        },
+        "Sphere06_mesh_accessor_0": {
+            "bufferView": "Sphere06_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "Sphere06_mesh_accessor_1": {
+            "bufferView": "Sphere06_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Sphere06_mesh_accessor_2": {
+            "bufferView": "Sphere06_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2880,
+            "type": "SCALAR",
+            "max": [
+                558.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "Teapot01_mesh_accessor": {
+            "bufferView": "Teapot01_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 97,
+            "type": "VEC3",
+            "max": [
+                26.62980079650879,
+                26.62980079650879,
+                177.12600708007813
+            ],
+            "min": [
+                -26.62980079650879,
+                -26.62980079650879,
+                0.0
+            ]
+        },
+        "Teapot01_mesh_accessor_0": {
+            "bufferView": "Teapot01_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 97,
+            "type": "VEC3",
+            "max": [
+                0.21048399806022645,
+                0.21048399806022645,
+                1.0
+            ],
+            "min": [
+                -0.21048399806022645,
+                -0.21048399806022645,
+                -1.0
+            ]
+        },
+        "Teapot01_mesh_accessor_1": {
+            "bufferView": "Teapot01_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 97,
+            "type": "VEC2",
+            "max": [
+                2.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Teapot01_mesh_accessor_2": {
+            "bufferView": "Teapot01_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 128,
+            "type": "SCALAR",
+            "max": [
+                95.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        "Teapot01_mesh_0_accessor": {
+            "bufferView": "Teapot01_mesh_0_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 2328,
+            "type": "VEC3",
+            "max": [
+                193.0469970703125,
+                112.46099853515625,
+                177.12600708007813
+            ],
+            "min": [
+                -168.6909942626953,
+                -112.46099853515625,
+                0.0
+            ]
+        },
+        "Teapot01_mesh_0_accessor_0": {
+            "bufferView": "Teapot01_mesh_0_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 2328,
+            "type": "VEC3",
+            "max": [
+                0.9993929862976074,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9995710253715515,
+                -0.9999989867210388,
+                -1.0
+            ]
+        },
+        "Teapot01_mesh_0_accessor_1": {
+            "bufferView": "Teapot01_mesh_0_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 2328,
+            "type": "VEC2",
+            "max": [
+                2.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -1.0
+            ]
+        },
+        "Teapot01_mesh_0_accessor_2": {
+            "bufferView": "Teapot01_mesh_0_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 12096,
+            "type": "SCALAR",
+            "max": [
+                2327.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "H:\\ULRE\\res\\model\\color_teapot_spheres": {
+            "byteLength": 196640,
+            "type": "arraybuffer",
+            "uri": "H:\\ULRE\\res\\model\\color_teapot_spheres.bin"
+        }
+    },
+    "bufferViews": {
+        "Sphere01_mesh_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 0,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere01_mesh_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 6708,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere01_mesh_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 13416,
+            "byteLength": 4472,
+            "target": 34962
+        },
+        "Sphere01_mesh_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 17888,
+            "byteLength": 5760,
+            "target": 34963
+        },
+        "Sphere04_mesh_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 23648,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere04_mesh_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 30356,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere04_mesh_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 37064,
+            "byteLength": 4472,
+            "target": 34962
+        },
+        "Sphere04_mesh_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 41536,
+            "byteLength": 5760,
+            "target": 34963
+        },
+        "Sphere08_mesh_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 47296,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere08_mesh_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 54004,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere08_mesh_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 60712,
+            "byteLength": 4472,
+            "target": 34962
+        },
+        "Sphere08_mesh_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 65184,
+            "byteLength": 5760,
+            "target": 34963
+        },
+        "Sphere06_mesh_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 70944,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere06_mesh_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 77652,
+            "byteLength": 6708,
+            "target": 34962
+        },
+        "Sphere06_mesh_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 84360,
+            "byteLength": 4472,
+            "target": 34962
+        },
+        "Sphere06_mesh_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 88832,
+            "byteLength": 5760,
+            "target": 34963
+        },
+        "Teapot01_mesh_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 94592,
+            "byteLength": 1164,
+            "target": 34962
+        },
+        "Teapot01_mesh_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 95756,
+            "byteLength": 1164,
+            "target": 34962
+        },
+        "Teapot01_mesh_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 96920,
+            "byteLength": 776,
+            "target": 34962
+        },
+        "Teapot01_mesh_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 97696,
+            "byteLength": 256,
+            "target": 34963
+        },
+        "Teapot01_mesh_0_view": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 97952,
+            "byteLength": 27936,
+            "target": 34962
+        },
+        "Teapot01_mesh_0_view_0": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 125888,
+            "byteLength": 27936,
+            "target": 34962
+        },
+        "Teapot01_mesh_0_view_1": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 153824,
+            "byteLength": 18624,
+            "target": 34962
+        },
+        "Teapot01_mesh_0_view_2": {
+            "buffer": "H:\\ULRE\\res\\model\\color_teapot_spheres",
+            "byteOffset": 172448,
+            "byteLength": 24192,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "m0_01___Default": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.5882350206375122,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "specular": [
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 10.0
+            }
+        },
+        "m1_09___Default": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    0.7294120192527771,
+                    0.0,
+                    1.0
+                ],
+                "specular": [
+                    0.36000001430511477,
+                    0.36000001430511477,
+                    0.36000001430511477,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 10.0
+            }
+        },
+        "m3_01___Default2": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.0,
+                    0.035294000059366229,
+                    0.4745100140571594,
+                    1.0
+                ],
+                "specular": [
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 10.0
+            }
+        },
+        "m2_01___Default3": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.3803919851779938,
+                    0.8235290050506592,
+                    0.4549019932746887,
+                    1.0
+                ],
+                "specular": [
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    0.35100001096725466,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 10.0
+            }
+        }
+    },
+    "meshes": {
+        "Sphere01_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "m0_01___Default",
+                    "indices": "Sphere01_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Sphere01_mesh_accessor",
+                        "NORMAL": "Sphere01_mesh_accessor_0",
+                        "TEXCOORD_0": "Sphere01_mesh_accessor_1"
+                    }
+                }
+            ]
+        },
+        "Sphere04_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "m1_09___Default",
+                    "indices": "Sphere04_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Sphere04_mesh_accessor",
+                        "NORMAL": "Sphere04_mesh_accessor_0",
+                        "TEXCOORD_0": "Sphere04_mesh_accessor_1"
+                    }
+                }
+            ]
+        },
+        "Sphere08_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "m3_01___Default2",
+                    "indices": "Sphere08_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Sphere08_mesh_accessor",
+                        "NORMAL": "Sphere08_mesh_accessor_0",
+                        "TEXCOORD_0": "Sphere08_mesh_accessor_1"
+                    }
+                }
+            ]
+        },
+        "Sphere06_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "m2_01___Default3",
+                    "indices": "Sphere06_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Sphere06_mesh_accessor",
+                        "NORMAL": "Sphere06_mesh_accessor_0",
+                        "TEXCOORD_0": "Sphere06_mesh_accessor_1"
+                    }
+                }
+            ]
+        },
+        "Teapot01_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 1,
+                    "material": "m0_01___Default",
+                    "indices": "Teapot01_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Teapot01_mesh_accessor",
+                        "NORMAL": "Teapot01_mesh_accessor_0",
+                        "TEXCOORD_0": "Teapot01_mesh_accessor_1"
+                    }
+                }
+            ]
+        },
+        "Teapot01_mesh_0": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "m0_01___Default",
+                    "indices": "Teapot01_mesh_0_accessor_2",
+                    "attributes": {
+                        "POSITION": "Teapot01_mesh_0_accessor",
+                        "NORMAL": "Teapot01_mesh_0_accessor_0",
+                        "TEXCOORD_0": "Teapot01_mesh_0_accessor_1"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "unnamed_scene": {
+            "children": [
+                "Sphere01",
+                "Sphere02",
+                "Sphere04",
+                "Sphere03",
+                "Sphere08",
+                "Sphere07",
+                "Sphere06",
+                "Sphere05",
+                "Teapot01"
+            ]
+        },
+        "Sphere01": {
+            "matrix": [
+                0.02539999969303608,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                2.0000009536743166,
+                7.5000104904174809,
+                1.0
+            ],
+            "meshes": [
+                "Sphere01_mesh"
+            ]
+        },
+        "Sphere02": {
+            "matrix": [
+                0.02539999969303608,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                2.0000009536743166,
+                -7.5000104904174809,
+                1.0
+            ],
+            "meshes": [
+                "Sphere01_mesh"
+            ]
+        },
+        "Sphere04": {
+            "matrix": [
+                0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                5.303291320800781,
+                2.0000009536743166,
+                5.303291320800781,
+                1.0
+            ],
+            "meshes": [
+                "Sphere04_mesh"
+            ]
+        },
+        "Sphere03": {
+            "matrix": [
+                0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                -5.303291320800781,
+                2.0000009536743166,
+                -5.303291320800781,
+                1.0
+            ],
+            "meshes": [
+                "Sphere04_mesh"
+            ]
+        },
+        "Sphere08": {
+            "matrix": [
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                0.01796051859855652,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                5.303291320800781,
+                2.0000009536743166,
+                -5.303291320800781,
+                1.0
+            ],
+            "meshes": [
+                "Sphere08_mesh"
+            ]
+        },
+        "Sphere07": {
+            "matrix": [
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                -0.01796051859855652,
+                0.0,
+                0.01796051859855652,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                -5.303291320800781,
+                2.0000009536743166,
+                5.303291320800781,
+                1.0
+            ],
+            "meshes": [
+                "Sphere08_mesh"
+            ]
+        },
+        "Sphere06": {
+            "matrix": [
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                7.5000104904174809,
+                2.0000009536743166,
+                0.0000014224000324247755,
+                1.0
+            ],
+            "meshes": [
+                "Sphere06_mesh"
+            ]
+        },
+        "Sphere05": {
+            "matrix": [
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                -7.5000104904174809,
+                2.0000009536743166,
+                -0.0000014224000324247755,
+                1.0
+            ],
+            "meshes": [
+                "Sphere06_mesh"
+            ]
+        },
+        "Teapot01": {
+            "matrix": [
+                0.02539999969303608,
+                0.0,
+                -0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.02539999969303608,
+                0.0,
+                0.0,
+                0.02539999969303608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0,
+                1.0
+            ],
+            "meshes": [
+                "Teapot01_mesh",
+                "Teapot01_mesh_0"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "unnamed_scene"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
