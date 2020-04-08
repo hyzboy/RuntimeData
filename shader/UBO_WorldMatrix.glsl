@@ -1,4 +1,4 @@
-layout(std430,binding = 0,row_major) uniform WorldMatrix     // hgl/math/Math.h
+layout(binding = 0) uniform WorldMatrix     // hgl/math/Math.h
 {
     mat4 ortho;
 
