@@ -1,0 +1,17 @@
+//该文件用于描述光照模型
+[intro]
+author=
+infomation=
+
+[attr]  //该段用于描述该着色最终会需要那些数据
+        //会根据最终需求，数据可能来自纹理，可能来自顶点，或是全局固定
+
+    vec3 BaseColor;
+    vec3 Normal;
+    float Metallic;
+    float Roughness;
+
+[compute]   //计算函数体
+{
+
+}

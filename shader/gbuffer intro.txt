@@ -1,0 +1,45 @@
+[attr]  //该段用于描述该材质最终会需要那些数据
+
+    vec3 BaseColor;
+    vec3 Normal;
+    float Metallic;
+    float Roughness;
+
+[framebuffer]   //该段用于描述当前shader会输出到几个Framebuffer上
+
+    //如果是前向渲染，一般只有一个Framebuffer
+
+    vec4 FinalColor;
+
+    //如果是延迟渲染，则代表GBuffer，可能存在多个framebuffer
+
+    vec4 gb_color_metallic;
+    vec4 gb_normal_roughness;
+
+[attr_to_fb]    //该段用于描述attr如何转换到framebuffer上
+
+    //如果是UI之类直接上色的，那会比较颜色
+
+    FinalColor=vec4(BaseColor,1.0);
+
+    //如果是前向渲染
+
+    FinalColor=BRDF(BaseColor,Normal,Metallic,Roughness);
+
+    //如果是延迟渲染
+
+    gb_color_metallic   =vec4(BaseColor,Metallic);
+    gb_normal_roughness =vec4(Normal,   Roughness);
+
+[gb_to_attr]    //该段为延迟渲染独有，用于表示如何从gbuffer分解成独立数据
+
+    vec4 gb_cm=texture(gb_color_metallic,FragmentPosition);
+    vec4 gb_nr=texture(gb_normal_roughness,FragmentPosition);
+
+    BaseColor =gb_cm.rgb;
+    Metallic  =gb_cm.a;
+
+    Normal    =gb_nr.rgb;
+    Roughness =gb_nr.a;
+
+    gl_FragColor=BRDF(BaseColor,Normal,Metallic,Roughness);
