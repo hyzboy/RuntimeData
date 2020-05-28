@@ -1,4 +1,4 @@
-vec3 random(vec2 uv)        // from Godot 3.2
+float random(vec2 _uv)
 {
-    return vec3(fract(sin(dot(uv,vec2(12.9898,78.233)))*43758.5453123));
+    return fract(sin(dot(_uv.xy, vec2(12.9898, 78.233) ) ) * 43758.5453);
 }
