@@ -14,12 +14,13 @@ layout(binding=1) uniform WorldMatrix     // hgl/math/Math.h
     mat4 inverse_mvp;
 
     vec4 view_pos;
-    vec2 resolution;
+    vec2 canvas_resolution;
+    vec2 viewport_resolution;
 }fragment_world;
 
 layout(location = 0) out vec4 FragColor;
 
 void main()
 {
-    FragColor=vec4(gl_FragCoord.xy/fragment_world.resolution,0,1);
+    FragColor=vec4(gl_FragCoord.xy/fragment_world.viewport_resolution,0,1);
 }
