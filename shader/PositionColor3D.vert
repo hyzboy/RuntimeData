@@ -1,4 +1,4 @@
-#version 450 core
+﻿#version 450 core
 
 layout(location = 0) in vec3 Vertex;
 layout(location = 1) in vec4 Color;
@@ -17,15 +17,13 @@ layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
     mat4 inverse_mvp;
 
     vec4 view_pos;
-    vec2 resolution;
+    vec2 canvas_resolution;
+    vec2 viewport_resolution;
 } world;
 
 layout(push_constant) uniform Consts
 {
     mat4 local_to_world;
-    mat3 normal;
-    vec3 object_position;
-    vec3 object_size;
 }pc;
 
 layout(location = 0) out vec4 FragmentColor;

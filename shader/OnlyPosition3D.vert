@@ -1,4 +1,4 @@
-#version 450 core
+﻿#version 450 core
 
 layout(location = 0) in vec3 Vertex;
 
@@ -16,7 +16,8 @@ layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
     mat4 inverse_mvp;
 
     vec4 view_pos;
-    vec2 resolution;
+    vec2 canvas_resolution;
+    vec2 viewport_resolution;
 } world;
 
 layout(push_constant) uniform Consts {
