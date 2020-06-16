@@ -1,4 +1,4 @@
-layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
+﻿layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
 {
     mat4 ortho;
 
@@ -7,10 +7,12 @@ layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
 
     mat4 modelview;
     mat4 inverse_modelview;
+    mat3 normal;
 
     mat4 mvp;
     mat4 inverse_mvp;
 
     vec4 view_pos;
-    vec2 resolution;
+    vec2 canvas_resolution;
+    vec2 viewport_resolution;
 } world;
