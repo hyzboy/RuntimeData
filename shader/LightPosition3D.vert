@@ -28,7 +28,7 @@ layout(push_constant) uniform Consts {
 layout(binding=1) uniform ColorMaterial
 {
     vec4 color;
-    vec4 amibent;
+    vec4 ambient;
 } color_material;
 
 layout(binding=2) uniform Sun
@@ -38,14 +38,16 @@ layout(binding=2) uniform Sun
 
 layout(location=0) out vec4 FragmentColor;
 
-float GetSunlightIntensity()
+vec4 ComputeSunlightFinalColor(vec4 color,vec4 ambient)
 {
-    return max(dot(normalize(Normal*mat3(world.mvp)),sun.direction),0.0);
+    float intensity=max(dot(normalize(Normal*mat3(world.mvp)),sun.direction),0.0);
+
+    return max(color*intensity,ambient);
 }
 
 void main()
 {
-    FragmentColor=color_material.color*GetSunlightIntensity()+color_material.amibent;
+    FragmentColor=ComputeSunlightFinalColor(color_material.color,color_material.ambient);
 
     gl_Position=vec4(Vertex,1.0)*(pc.local_to_world*world.mvp);
 }
