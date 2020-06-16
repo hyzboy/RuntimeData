@@ -1,2 +1,7 @@
 *.shader
 *.exe
+*.Tex2D
+*.dll
+*.kate-swp
+*.frag
+*.vert
