@@ -27,7 +27,6 @@ layout(binding=1) uniform ColorMaterial
     vec4 ambient;
 } color_material;
 
-
 layout(binding=2) uniform Sun
 {
     vec3 direction;
