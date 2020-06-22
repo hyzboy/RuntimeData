@@ -1,50 +1,50 @@
-001-online resume.Tex2D
-002-salary.Tex2D
-003-application.Tex2D
-004-job interview.Tex2D
-005-investment.Tex2D
-006-job seeker.Tex2D
-007-file.Tex2D
-008-Cooperation.Tex2D
-009-CV.Tex2D
-010-personal data.Tex2D
-011-job interview.Tex2D
-012-calendar.Tex2D
-013-home.Tex2D
-014-location.Tex2D
-015-photo.Tex2D
-016-file.Tex2D
-017-book.Tex2D
-018-profile.Tex2D
-019-employee.Tex2D
-020-file.Tex2D
-021-best employee.Tex2D
-022-achievement.Tex2D
-023-badge.Tex2D
-024-job opportunities.Tex2D
-025-skill.Tex2D
-026-working.Tex2D
-027-trophy.Tex2D
-028-CV.Tex2D
-029-headhunter.Tex2D
-030-CV.Tex2D
-031-best employee.Tex2D
-032-chart.Tex2D
-033-headhunter.Tex2D
-034-certificate.Tex2D
-035-job offer.Tex2D
-036-check.Tex2D
-037-graduated.Tex2D
-038-profile.Tex2D
-039-photo.Tex2D
-040-envelope.Tex2D
-041-curriculum vitae.Tex2D
-042-headhunting.Tex2D
-043-portfolio.Tex2D
-044-chart.Tex2D
-045-email.Tex2D
-046-portfolio.Tex2D
-047-contract.Tex2D
-048-office chair.Tex2D
-049-office building.Tex2D
-050-profile.Tex2D
+001-online resume
+002-salary
+003-application
+004-job interview
+005-investment
+006-job seeker
+007-file
+008-Cooperation
+009-CV
+010-personal data
+011-job interview
+012-calendar
+013-home
+014-location
+015-photo
+016-file
+017-book
+018-profile
+019-employee
+020-file
+021-best employee
+022-achievement
+023-badge
+024-job opportunities
+025-skill
+026-working
+027-trophy
+028-CV
+029-headhunter
+030-CV
+031-best employee
+032-chart
+033-headhunter
+034-certificate
+035-job offer
+036-check
+037-graduated
+038-profile
+039-photo
+040-envelope
+041-curriculum vitae
+042-headhunting
+043-portfolio
+044-chart
+045-email
+046-portfolio
+047-contract
+048-office chair
+049-office building
+050-profile
