@@ -29,7 +29,7 @@ layout(location=0) out vec3 FragmentNormal;
 
 void main()
 {
-    FragmentNormal=Normal;
+    FragmentNormal=normalize(Normal*mat3(pc.local_to_world));
 
     gl_Position=vec4(Vertex,1.0)*(pc.local_to_world*world.mvp);
 }
