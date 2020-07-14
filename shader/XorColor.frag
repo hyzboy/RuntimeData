@@ -25,9 +25,9 @@ layout(binding=10) uniform WorldMatrix     // hgl/math/Math.h
     vec2 viewport_resolution;
 }fs_world;
 
-void main()
+float xor_texture(vec2 coord)
 {
-    vec2 p = 256.0 * gl_FragCoord.xy/fs_world.canvas_resolution.x;
+    vec2 p = 256.0 * coord;
 
     float x = 0.0;
 
@@ -45,5 +45,12 @@ void main()
         x /= 2.0;
     }
 
-    FragColor=vec4(color_material.color.rgb*x,1.0);
+    return x;
+}
+
+void main()
+{
+    float strong=xor_texture(gl_FragCoord.xy/fs_world.canvas_resolution.x);
+
+    FragColor=vec4(color_material.color.rgb*strong,1.0);
 }
