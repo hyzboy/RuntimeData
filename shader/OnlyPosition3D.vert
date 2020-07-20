@@ -11,7 +11,6 @@ layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
 
     mat4 modelview;
     mat4 inverse_modelview;
-    mat3 normal;
 
     mat4 mvp;
     mat4 inverse_mvp;
