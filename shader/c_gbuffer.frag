@@ -15,9 +15,9 @@ layout (location = 2) out vec4 FragWorldPos;
 
 void main()
 {
-    FragWorldPos=vec4(FragmentWorldPos,1.0);    
+    FragWorldPos=vec4(FragmentWorldPos,1.0);
     FragAlbedo  =texture(samplerAlbedo,FragmentTexCoord)*vec4(FragmentColor,1.0);
-    
+
     vec3 N = normalize(FragmentNormal);
     N.y = -N.y;
     vec3 T = normalize(FragmentTangent);

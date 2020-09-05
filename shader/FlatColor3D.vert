@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 layout(location = 1) in vec3 Color;
 layout(location = 2) in vec3 Normal;
 
@@ -23,5 +23,5 @@ void main()
 {
     FragmentColor=vec4(Color,1.0);
 
-    gl_Position=vec4(Vertex,1.0)*world.mvp;
+    gl_Position=vec4(Position,1.0)*world.mvp;
 }

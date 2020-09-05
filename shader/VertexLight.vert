@@ -1,6 +1,6 @@
 ﻿#version 450 core
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 layout(location = 1) in vec3 Normal;
 
 layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
@@ -49,5 +49,5 @@ void main()
 {
     FragmentColor=ComputeSunlightFinalColor(color_material.color,color_material.ambient);
 
-    gl_Position=vec4(Vertex,1.0)*(pc.local_to_world*world.mvp);
+    gl_Position=vec4(Position,1.0)*(pc.local_to_world*world.mvp);
 }

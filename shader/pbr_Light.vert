@@ -1,6 +1,6 @@
 #version 450
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 layout(location = 1) in vec3 Normal;
 
 layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
@@ -30,7 +30,7 @@ layout(location=1) out vec3 FragmentWorldNormal;
 
 void main()
 {
-	FragmentWorldPos = Vertex*mat3(pc.local_to_world);
+	FragmentWorldPos = Position*mat3(pc.local_to_world);
 	FragmentWorldNormal = Normal*mat3(pc.local_to_world);
 
 	gl_Position =  vec4(FragmentWorldPos,1.0)*world.mvp;

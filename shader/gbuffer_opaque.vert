@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 layout(location = 1) in vec2 TexCoord;
 layout(location = 2) in vec3 Normal;
 layout(location = 3) in vec3 Tangent;
@@ -33,7 +33,7 @@ layout(location = 3) out vec2 FragmentTexCoord;
 
 void main()
 {
-    vec4 pos=vec4(Vertex,1.0)*pc.local_to_world;
+    vec4 pos=vec4(Position,1.0)*pc.local_to_world;
 
     gl_Position=pos*world.mvp;
 

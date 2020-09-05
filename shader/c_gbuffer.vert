@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 layout(location = 1) in vec3 Color;
 layout(location = 2) in vec3 Normal;
 layout(location = 3) in vec3 Tangent;
@@ -28,13 +28,13 @@ layout(location = 4) out vec2 FragmentTexCoord;
 void main()
 {
     FragmentColor=Color;
-    FragmentWorldPos=vec3(vec4(Vertex,1.0)*pc.local_to_world);
-    FragmentTexCoord=TexCoord;    
+    FragmentWorldPos=vec3(vec4(Position,1.0)*pc.local_to_world);
+    FragmentTexCoord=TexCoord;
     FragmentTexCoord.t=1.0-TexCoord.t;
 
     mat3 mNormal=transpose(inverse(mat3(pc.local_to_world)));
     FragmentNormal=mNormal*normalize(Normal);
     FragmentTangent=mNormal*normalize(Tangent);
 
-    gl_Position=vec4(Vertex,1.0)*world.mvp;
+    gl_Position=vec4(Position,1.0)*world.mvp;
 }

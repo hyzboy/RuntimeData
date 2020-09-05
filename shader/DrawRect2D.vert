@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec4 Vertex;
+layout(location = 0) in vec4 Position;
 layout(location = 1) in vec4 TexCoord;
 
 layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
@@ -25,8 +25,8 @@ layout(location=0) out vec4 GeometryTexCoord;
 
 void main()
 {
-    vec4 lt=vec4(Vertex.xy,vec2(0,1));
-    vec4 rb=vec4(Vertex.zw,vec2(0,1));
+    vec4 lt=vec4(Position.xy,vec2(0,1));
+    vec4 rb=vec4(Position.zw,vec2(0,1));
 
     vec4 lt_fin=lt*world.ortho;
     vec4 rb_fin=rb*world.ortho;

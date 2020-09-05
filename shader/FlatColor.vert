@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec2 Vertex;
+layout(location = 0) in vec2 Position;
 layout(location = 1) in vec3 Color;
 
 layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
@@ -26,5 +26,5 @@ void main()
 {
     FragmentColor=vec4(Color,1.0);
 
-    gl_Position=vec4(Vertex,0.0,1.0)*world.ortho;
+    gl_Position=vec4(Position,0.0,1.0)*world.ortho;
 }

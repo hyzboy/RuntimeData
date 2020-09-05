@@ -1,6 +1,6 @@
 #version 450 core
 
-layout(location = 0) in vec3 Vertex;
+layout(location = 0) in vec3 Position;
 
 layout(binding=0) uniform WorldMatrix     // hgl/math/Math.h
 {
@@ -23,10 +23,10 @@ layout(push_constant) uniform Consts {
     mat4 local_to_world;
 } pc;
 
-layout(location = 0) out vec4 FragmentVertex;
+layout(location = 0) out vec4 FragmentPosition;
 
 void main()
 {
-    FragmentVertex=vec4(Vertex,1.0)*pc.local_to_world*world.mvp;
-    gl_Position=FragmentVertex;
+    FragmentPosition=vec4(Position,1.0)*pc.local_to_world*world.mvp;
+    gl_Position=FragmentPosition;
 }
