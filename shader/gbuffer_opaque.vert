@@ -26,10 +26,13 @@ layout(push_constant) uniform Consts {
     mat4 local_to_world;
 } pc;
 
-layout(location = 0) out vec3 FragmentNormal;
-layout(location = 1) out vec3 FragmentTangent;
-layout(location = 2) out vec3 FragmentPosition;
-layout(location = 3) out vec2 FragmentTexCoord;
+layout(location = 0) out struct
+{
+    vec3 Normal;
+    vec3 Tangent;
+    vec3 Position;
+    vec2 TexCoord;
+}vs_out;
 
 void main()
 {
@@ -37,11 +40,11 @@ void main()
 
     gl_Position=pos*world.mvp;
 
-    FragmentPosition=(pos*world.modelview).xyz;
-    FragmentTexCoord=TexCoord;
+    vs_out.Position=(pos*world.modelview).xyz;
+    vs_out.TexCoord=TexCoord;
 
     mat3 n=mat3(pc.local_to_world*world.modelview);
 
-    FragmentNormal=normalize(Normal)*n;
-    FragmentTangent=normalize(Tangent)*n;
+    vs_out.Normal=normalize(Normal)*n;
+    vs_out.Tangent=normalize(Tangent)*n;
 }
