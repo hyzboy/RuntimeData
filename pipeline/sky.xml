@@ -1,0 +1,69 @@
+<root stageCount="2">
+    <tessellation PatchControlPoints="0"/>
+
+    <!--AlphaTest不是结构里，仅在shader用的，但因为关联Discard所以写在这里-->
+
+    <rasterizer
+        DepthClamp  ="false"
+        Discard     ="false"
+        AlaphTest   ="0.0"
+        PolygonMode ="fill"
+        Cull        ="none"
+        FrontFace   ="CCW"
+
+        LineWidth   ="1.0">
+
+<!--不用写，写了代表打开        <depthbias
+            ConstantFactor  ="0"
+            Clamp           ="0"
+            SlopeFactor     ="0"/>-->
+    </rasterizer>
+
+    <multisample
+        Samples         ="1"
+        Shading         ="false"
+        MinShading      ="0"
+        AlphaToCoverage ="false"
+        AlphaToOne      ="false"/>
+
+    <DepthStencil
+        DepthTest       ="true"
+        DepthWrite      ="true"
+        DepthCompareOp  ="less_or_equal"
+        DepthBoundsTest ="false"
+        StencilTest     ="false"
+        MinDepthBounds  ="0"
+        MaxDepthBounds  ="0">
+        <front
+            FailOp      ="keep"
+            PassOp      ="keep"
+            DepthFailOp ="keep"
+            CompareOp   ="always"
+            CompareMask ="0"
+            Reference   ="0"
+            WriteMask   ="0"/>
+        <back
+            FailOp      ="keep"
+            PassOp      ="keep"
+            CompareOp   ="always"
+            CompareMask ="0"
+            Reference   ="0"
+            DepthFailOp ="keep"
+            WriteMask   ="0"/>
+    </DepthStencil>
+
+    <ColorBlend
+        LogicOpEnable   ="false"
+        LogicOp         ="clear"
+        BlendConstants  ="0,0,0,0">
+        <attachment
+                mask    ="rgba"
+                blend   ="false"
+                alpha   ="add"
+                color   ="add"
+                SrcColor="zero"
+                DstColor="zero"
+                SrcAlpha="zero"
+                DstAlpha="zero"/>
+    </ColorBlend>
+</root>
