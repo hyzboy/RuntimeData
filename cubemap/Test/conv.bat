@@ -1,1 +1,0 @@
-CubeMapConv.exe /RGB:R8 Test.TexCube posx.png negx.png posy.png negy.png posz.png negz.png
