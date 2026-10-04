@@ -23,7 +23,6 @@
         Samples         ="1"
         Shading         ="false"
         MinShading      ="0"
-        AlphaToCoverage ="false"
         AlphaToOne      ="false"/>
 
     <DepthStencil
