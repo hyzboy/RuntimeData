@@ -1,0 +1,12 @@
+#
+# 外部模型几何 —— 异步流送路径（需要 .geo minipack 存在）
+#
+# geometry 路径相对本文件所在目录解析，资产整体搬迁不必改内容。
+#
+schema = 1
+name = "vulkan_logo"
+type = "file"
+file = "model/vulkan_logo/scene.StaticMesh/scene.geometry"
+
+[vertex_format]
+normal = "VF_V2UN8"

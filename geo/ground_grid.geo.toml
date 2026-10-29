@@ -1,0 +1,16 @@
+#
+# 地面网格 —— 内置平面网格（带主/次网格线亮度）
+#
+schema = 1
+name = "ground_grid"
+type = "builtin"
+shape = "plane_grid"
+
+[builtin.plane_grid]
+grid_x = 20
+grid_y = 20
+sub_x = 2
+sub_y = 2
+lum = 160
+sub_lum = 80
+is_3d = false

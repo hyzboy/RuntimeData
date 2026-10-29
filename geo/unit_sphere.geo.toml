@@ -1,0 +1,13 @@
+#
+# 单位球 —— 内置几何体（参数化，创建即 Resident，不读盘）
+#
+schema = 1
+name = "unit_sphere"
+type = "builtin"
+shape = "sphere"
+
+[builtin.sphere]
+slices = 64
+
+[vertex_format]
+normal = "VF_V2UN8"

@@ -1,0 +1,14 @@
+#
+# 单位立方体 —— 内置几何体（注意顶点的 NTB 生成方式与 UV 开关）
+#
+schema = 1
+name = "unit_cube"
+type = "builtin"
+shape = "cube"
+
+[builtin.cube]
+segments_x = 1
+segments_y = 1
+segments_z = 1
+ntb = "normal"
+tex_coord = true
