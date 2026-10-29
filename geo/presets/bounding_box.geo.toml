@@ -1,0 +1,7 @@
+schema = 1
+name = "bounding_box"
+type = "builtin"
+shape = "bounding_box"
+
+[builtin.bounding_box]
+ntb = "none"

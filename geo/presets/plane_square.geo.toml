@@ -1,0 +1,6 @@
+schema = 1
+name = "plane_square"
+type = "builtin"
+shape = "plane_square"
+
+[builtin.plane_square]

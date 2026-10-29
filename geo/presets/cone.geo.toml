@@ -1,0 +1,10 @@
+schema = 1
+name = "cone"
+type = "builtin"
+shape = "cone"
+
+[builtin.cone]
+half_extend = 1.0
+radius = 1.0
+slices = 64
+stacks = 4

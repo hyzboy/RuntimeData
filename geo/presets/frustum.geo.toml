@@ -1,0 +1,10 @@
+schema = 1
+name = "frustum"
+type = "builtin"
+shape = "frustum"
+
+[builtin.frustum]
+bottom_radius = 1.0
+top_radius = 0.5
+height = 2.0
+slices = 32

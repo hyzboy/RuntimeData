@@ -1,0 +1,10 @@
+schema = 1
+name = "torus_small"
+type = "builtin"
+shape = "torus"
+
+[builtin.torus]
+inner_radius = 0.6
+outer_radius = 1.1
+slices = 64
+stacks = 20

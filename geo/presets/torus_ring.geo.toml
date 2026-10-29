@@ -1,0 +1,10 @@
+schema = 1
+name = "torus_ring"
+type = "builtin"
+shape = "torus"
+
+[builtin.torus]
+inner_radius = 1.9
+outer_radius = 2.1
+slices = 128
+stacks = 16

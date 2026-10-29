@@ -1,0 +1,10 @@
+schema = 1
+name = "capsule"
+type = "builtin"
+shape = "capsule"
+
+[builtin.capsule]
+half_height = 1.0
+radius = 0.5
+slices = 16
+stacks = 8

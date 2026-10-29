@@ -1,0 +1,13 @@
+schema = 1
+name = "plane_grid_pick"
+type = "builtin"
+shape = "plane_grid"
+
+[builtin.plane_grid]
+grid_x = 32
+grid_y = 32
+sub_x = 8
+sub_y = 8
+lum = 128
+sub_lum = 196
+is_3d = false

@@ -1,0 +1,10 @@
+schema = 1
+name = "cube_2x2x2"
+type = "builtin"
+shape = "cube"
+
+[builtin.cube]
+segments_x = 2
+segments_y = 2
+segments_z = 2
+ntb = "normal"

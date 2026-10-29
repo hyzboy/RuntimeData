@@ -1,0 +1,10 @@
+schema = 1
+name = "hollow_cylinder"
+type = "builtin"
+shape = "hollow_cylinder"
+
+[builtin.hollow_cylinder]
+half_extend = 1.0
+inner_radius = 0.6
+outer_radius = 1.0
+slices = 64

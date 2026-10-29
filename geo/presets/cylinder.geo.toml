@@ -1,0 +1,9 @@
+schema = 1
+name = "cylinder"
+type = "builtin"
+shape = "cylinder"
+
+[builtin.cylinder]
+half_extend = 1.0
+radius = 1.0
+slices = 32

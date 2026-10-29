@@ -1,0 +1,9 @@
+schema = 1
+name = "cylinder_thin"
+type = "builtin"
+shape = "cylinder"
+
+[builtin.cylinder]
+half_extend = 1.2
+radius = 0.8
+slices = 32

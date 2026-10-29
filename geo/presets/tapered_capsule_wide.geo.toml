@@ -1,0 +1,11 @@
+schema = 1
+name = "tapered_capsule_wide"
+type = "builtin"
+shape = "tapered_capsule"
+
+[builtin.tapered_capsule]
+half_height = 1.0
+bottom_radius = 0.5
+top_radius = 0.25
+slices = 16
+stacks = 8

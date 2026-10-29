@@ -1,0 +1,13 @@
+schema = 1
+name = "plane_grid_lod"
+type = "builtin"
+shape = "plane_grid"
+
+[builtin.plane_grid]
+grid_x = 32
+grid_y = 32
+sub_x = 8
+sub_y = 8
+lum = 180
+sub_lum = 255
+is_3d = false

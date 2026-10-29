@@ -1,0 +1,7 @@
+schema = 1
+name = "sphere_64"
+type = "builtin"
+shape = "sphere"
+
+[builtin.sphere]
+slices = 64

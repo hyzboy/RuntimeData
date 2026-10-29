@@ -1,0 +1,7 @@
+schema = 1
+name = "dome_64"
+type = "builtin"
+shape = "dome"
+
+[builtin.dome]
+slices = 64
