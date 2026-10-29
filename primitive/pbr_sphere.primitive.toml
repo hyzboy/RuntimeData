@@ -1,0 +1,11 @@
+#
+# 图元资产：内置球 + PBR 配方
+#
+# 图元资产只是「几何 + 材质配方」的绑定层，几何与配方各自可被多个图元共享。
+# geometry 相对本文件目录解析。
+#
+schema = 1
+name = "pbr_sphere"
+geometry = "../geo/unit_sphere.geo.toml"
+recipe = "PBRSpheres.Lit"
+primitive_type = "triangles"

@@ -1,0 +1,15 @@
+#
+# 图元资产：地面网格 + 调试法线色配方
+#
+# 带一个额外的 depth_only 变体，演示「一个图元多种用途配方」，
+# 主变体（Surface）恒为第 0 条。
+#
+schema = 1
+name = "ground_grid_debug"
+geometry = "../geo/ground_grid.geo.toml"
+recipe = "LoadGeometry.DebugNormalColor"
+primitive_type = "triangles"
+
+[[variants]]
+recipe = "LoadGeometry.Wire"
+purpose = "debug"
