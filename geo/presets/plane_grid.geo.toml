@@ -1,0 +1,12 @@
+schema = 1
+name = "plane_grid"
+type = "builtin"
+shape = "plane_grid"
+
+[builtin.plane_grid]
+grid_x = 4
+grid_y = 4
+sub_x = 1
+sub_y = 1
+lum = 128
+sub_lum = 64

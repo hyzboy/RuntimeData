@@ -1,0 +1,7 @@
+schema = 1
+name = "axis"
+type = "builtin"
+shape = "axis"
+
+[builtin.axis]
+size = 1.0
