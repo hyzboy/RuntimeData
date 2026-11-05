@@ -1,6 +1,6 @@
 # glTF Sample Models: FlightHelmet — GlassPlasticMat（glTF 材质下标 2）。
 schema = 1
-name = "GLTF.FlightHelmet.GlassPlastic"
+name = "GLTF.FlightHelmet.GlassPlasticMat"
 domain = "StandardOpaque"
 
 [[textures]]

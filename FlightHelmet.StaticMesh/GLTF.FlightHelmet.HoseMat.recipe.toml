@@ -1,8 +1,8 @@
-# glTF Sample Models: FlightHelmet — RubberWoodMat（HoseMat 共用同一套贴图）。
+# glTF Sample Models: FlightHelmet — HoseMat（glTF 材质下标 0，贴图/因子与 RubberWoodMat 全同）。
 # 贴图为 GLTFConvert 直出的 ORM 口径（_OcclusionRoughMetal.png：R=AO G=rough B=metal），
 # StandardOpaque 原生解包，无需离线重打包。
 schema = 1
-name = "GLTF.FlightHelmet.RubberWood"
+name = "GLTF.FlightHelmet.HoseMat"
 domain = "StandardOpaque"
 
 [[textures]]

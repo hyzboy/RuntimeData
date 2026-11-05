@@ -1,6 +1,6 @@
 # glTF Sample Models: FlightHelmet — MetalPartsMat（glTF 材质下标 3）。
 schema = 1
-name = "GLTF.FlightHelmet.MetalParts"
+name = "GLTF.FlightHelmet.MetalPartsMat"
 domain = "StandardOpaque"
 
 [[textures]]
